@@ -1319,7 +1319,7 @@ function stealBall(name, coordinatesX, coordinatesY)
 				playerCanGetBall[name] = true
 			end
 		end,
-		1500,
+		500,
 		1,
 		"canCatch" .. name .. ""
 	)
